@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Linux Commands</title>
+
+<style>
+body{
+    background:black;
+    color:#00ff00;
+    font-family:monospace;
+    margin:0;
+}
+
+h1{
+    text-align:center;
+    padding:10px;
+    border-bottom:1px solid #00ff00;
+}
+
+.container{
+    padding:15px;
+    max-width:900px;
+    margin:auto;
+}
+
+.cmd{
+    display:flex;
+    justify-content:space-between;
+    padding:6px;
+    border-bottom:1px solid #003300;
+}
+
+.desc{
+    color:#66ff66;
+}
+
+footer{
+    text-align:center;
+    padding:10px;
+    border-top:1px solid #00ff00;
+    margin-top:20px;
+    font-size:14px;
+}
+.header{
+    font-weight:bold;
+    border-bottom:2px solid #00ff00;
+    color:#00ff00;
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>Linux Commands</h1>
+
+<div class="container">
+<div class="cmd header">
+<span>COMMAND</span>
+<span>MEANING</span>
+</div>
+<div class="cmd"><span>ls -la</span><span class="desc">list all files</span></div>
+<div class="cmd"><span>cd /path</span><span class="desc">change directory</span></div>
+<div class="cmd"><span>pwd</span><span class="desc">show current path</span></div>
+<div class="cmd"><span>cp file1 file2</span><span class="desc">copy file</span></div>
+<div class="cmd"><span>mv file1 file2</span><span class="desc">move or rename file</span></div>
+<div class="cmd"><span>rm file</span><span class="desc">delete file</span></div>
+<div class="cmd"><span>mkdir dir</span><span class="desc">create folder</span></div>
+<div class="cmd"><span>touch file</span><span class="desc">create empty file</span></div>
+<div class="cmd"><span>cat file</span><span class="desc">show file content</span></div>
+<div class="cmd"><span>grep text file</span><span class="desc">search text</span></div>
+
+<div class="cmd"><span>uname -a</span><span class="desc">system info</span></div>
+<div class="cmd"><span>hostname</span><span class="desc">show system name</span></div>
+<div class="cmd"><span>uptime</span><span class="desc">system running time</span></div>
+<div class="cmd"><span>whoami</span><span class="desc">current user</span></div>
+<div class="cmd"><span>ps aux</span><span class="desc">running processes</span></div>
+<div class="cmd"><span>top</span><span class="desc">live process monitor</span></div>
+<div class="cmd"><span>free -h</span><span class="desc">memory usage</span></div>
+<div class="cmd"><span>df -h</span><span class="desc">disk usage</span></div>
+
+<div class="cmd"><span>ip a</span><span class="desc">IP address info</span></div>
+<div class="cmd"><span>ping google.com</span><span class="desc">check connection</span></div>
+<div class="cmd"><span>curl site.com</span><span class="desc">get webpage data</span></div>
+<div class="cmd"><span>wget file</span><span class="desc">download file</span></div>
+<div class="cmd"><span>ssh user@ip</span><span class="desc">remote login</span></div>
+<div class="cmd"><span>scp file user@ip:/home</span><span class="desc">copy file remote</span></div>
+
+<div class="cmd"><span>lsblk</span><span class="desc">show disks</span></div>
+<div class="cmd"><span>fdisk -l</span><span class="desc">disk partitions</span></div>
+<div class="cmd"><span>mount</span><span class="desc">mount disk</span></div>
+<div class="cmd"><span>umount</span><span class="desc">unmount disk</span></div>
+
+<div class="cmd"><span>useradd user</span><span class="desc">add user</span></div>
+<div class="cmd"><span>passwd user</span><span class="desc">set password</span></div>
+<div class="cmd"><span>userdel user</span><span class="desc">delete user</span></div>
+<div class="cmd"><span>groups</span><span class="desc">show groups</span></div>
+
+<div class="cmd"><span>tar -cvf file.tar</span><span class="desc">create archive</span></div>
+<div class="cmd"><span>gzip file</span><span class="desc">compress file</span></div>
+<div class="cmd"><span>crontab -e</span><span class="desc">schedule task</span></div>
+<div class="cmd"><span>echo Hello</span><span class="desc">print text</span></div>
+<div class="cmd"><span>apt update</span><span class="desc">update packages</span></div>
+<div class="cmd"><span>apt install nmap</span><span class="desc">install package</span></div>
+
+</div>
+
+<footer>
+<p>Linux Commands Guide</p>
+<p>Made by PRiTi.EX</p>
+<p>2026</p>
+</footer>
+
+</body>
+</html>
